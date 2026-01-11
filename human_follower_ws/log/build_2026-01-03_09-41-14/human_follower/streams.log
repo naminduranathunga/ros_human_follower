@@ -1,0 +1,27 @@
+[2.308s] Invoking command in '/home/turtlebot/human_follower_ws/src/human_follower': PYTHONPATH=/home/turtlebot/human_follower_ws/build/human_follower/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/turtlebot/human_follower_ws/install/human_follower/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/human_follower build --build-base /home/turtlebot/human_follower_ws/build/human_follower/build install --record /home/turtlebot/human_follower_ws/build/human_follower/install.log --single-version-externally-managed install_data
+[3.051s] running egg_info
+[3.052s] writing ../../build/human_follower/human_follower.egg-info/PKG-INFO
+[3.052s] writing dependency_links to ../../build/human_follower/human_follower.egg-info/dependency_links.txt
+[3.053s] writing entry points to ../../build/human_follower/human_follower.egg-info/entry_points.txt
+[3.053s] writing requirements to ../../build/human_follower/human_follower.egg-info/requires.txt
+[3.053s] writing top-level names to ../../build/human_follower/human_follower.egg-info/top_level.txt
+[3.058s] reading manifest file '../../build/human_follower/human_follower.egg-info/SOURCES.txt'
+[3.061s] writing manifest file '../../build/human_follower/human_follower.egg-info/SOURCES.txt'
+[3.061s] running build
+[3.061s] running build_py
+[3.063s] running install
+[3.064s] running install_lib
+[3.069s] running install_data
+[3.069s] copying config/params.yaml -> /home/turtlebot/human_follower_ws/install/human_follower/share/human_follower/config
+[3.070s] running install_egg_info
+[3.073s] removing '/home/turtlebot/human_follower_ws/install/human_follower/lib/python3.10/site-packages/human_follower-1.0.0-py3.10.egg-info' (and everything under it)
+[3.074s] Copying ../../build/human_follower/human_follower.egg-info to /home/turtlebot/human_follower_ws/install/human_follower/lib/python3.10/site-packages/human_follower-1.0.0-py3.10.egg-info
+[3.076s] running install_scripts
+[3.136s] Installing depth_tracker script to /home/turtlebot/human_follower_ws/install/human_follower/lib/human_follower
+[3.138s] Installing follower_main script to /home/turtlebot/human_follower_ws/install/human_follower/lib/human_follower
+[3.141s] Installing gesture_detector script to /home/turtlebot/human_follower_ws/install/human_follower/lib/human_follower
+[3.141s] Installing obstacle_avoider script to /home/turtlebot/human_follower_ws/install/human_follower/lib/human_follower
+[3.142s] Installing person_detector script to /home/turtlebot/human_follower_ws/install/human_follower/lib/human_follower
+[3.142s] Installing robot_controller script to /home/turtlebot/human_follower_ws/install/human_follower/lib/human_follower
+[3.148s] writing list of installed files to '/home/turtlebot/human_follower_ws/build/human_follower/install.log'
+[3.247s] Invoked command in '/home/turtlebot/human_follower_ws/src/human_follower' returned '0': PYTHONPATH=/home/turtlebot/human_follower_ws/build/human_follower/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/turtlebot/human_follower_ws/install/human_follower/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/human_follower build --build-base /home/turtlebot/human_follower_ws/build/human_follower/build install --record /home/turtlebot/human_follower_ws/build/human_follower/install.log --single-version-externally-managed install_data

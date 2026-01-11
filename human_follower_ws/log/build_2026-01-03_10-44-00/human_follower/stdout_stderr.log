@@ -1,0 +1,32 @@
+running develop
+running egg_info
+creating human_follower.egg-info
+writing human_follower.egg-info/PKG-INFO
+writing dependency_links to human_follower.egg-info/dependency_links.txt
+writing entry points to human_follower.egg-info/entry_points.txt
+writing requirements to human_follower.egg-info/requires.txt
+writing top-level names to human_follower.egg-info/top_level.txt
+writing manifest file 'human_follower.egg-info/SOURCES.txt'
+reading manifest file 'human_follower.egg-info/SOURCES.txt'
+writing manifest file 'human_follower.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/turtlebot/human_follower_ws/install/human_follower/lib/python3.10/site-packages/human-follower.egg-link (link to .)
+Installing depth_tracker script to /home/turtlebot/human_follower_ws/install/human_follower/lib/human_follower
+Installing follower_main script to /home/turtlebot/human_follower_ws/install/human_follower/lib/human_follower
+Installing gesture_detector script to /home/turtlebot/human_follower_ws/install/human_follower/lib/human_follower
+Installing obstacle_avoider script to /home/turtlebot/human_follower_ws/install/human_follower/lib/human_follower
+Installing person_detector script to /home/turtlebot/human_follower_ws/install/human_follower/lib/human_follower
+Installing robot_controller script to /home/turtlebot/human_follower_ws/install/human_follower/lib/human_follower
+Installing smart_navigator script to /home/turtlebot/human_follower_ws/install/human_follower/lib/human_follower
+
+Installed /home/turtlebot/human_follower_ws/build/human_follower
+running symlink_data
+creating /home/turtlebot/human_follower_ws/install/human_follower/share/ament_index
+creating /home/turtlebot/human_follower_ws/install/human_follower/share/ament_index/resource_index
+creating /home/turtlebot/human_follower_ws/install/human_follower/share/ament_index/resource_index/packages
+symbolically linking /home/turtlebot/human_follower_ws/build/human_follower/resource/human_follower -> /home/turtlebot/human_follower_ws/install/human_follower/share/ament_index/resource_index/packages
+symbolically linking /home/turtlebot/human_follower_ws/build/human_follower/package.xml -> /home/turtlebot/human_follower_ws/install/human_follower/share/human_follower
+creating /home/turtlebot/human_follower_ws/install/human_follower/share/human_follower/launch
+symbolically linking /home/turtlebot/human_follower_ws/build/human_follower/launch/follower_launch.py -> /home/turtlebot/human_follower_ws/install/human_follower/share/human_follower/launch
+creating /home/turtlebot/human_follower_ws/install/human_follower/share/human_follower/config
+symbolically linking /home/turtlebot/human_follower_ws/build/human_follower/config/params.yaml -> /home/turtlebot/human_follower_ws/install/human_follower/share/human_follower/config

@@ -1,0 +1,29 @@
+[1.083s] Invoking command in '/home/turtlebot/human_follower_ws/src/human_follower': PYTHONPATH=/home/turtlebot/human_follower_ws/build/human_follower/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/turtlebot/human_follower_ws/install/human_follower/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/human_follower build --build-base /home/turtlebot/human_follower_ws/build/human_follower/build install --record /home/turtlebot/human_follower_ws/build/human_follower/install.log --single-version-externally-managed install_data
+[1.407s] running egg_info
+[1.408s] writing ../../build/human_follower/human_follower.egg-info/PKG-INFO
+[1.408s] writing dependency_links to ../../build/human_follower/human_follower.egg-info/dependency_links.txt
+[1.409s] writing entry points to ../../build/human_follower/human_follower.egg-info/entry_points.txt
+[1.409s] writing requirements to ../../build/human_follower/human_follower.egg-info/requires.txt
+[1.409s] writing top-level names to ../../build/human_follower/human_follower.egg-info/top_level.txt
+[1.411s] reading manifest file '../../build/human_follower/human_follower.egg-info/SOURCES.txt'
+[1.413s] writing manifest file '../../build/human_follower/human_follower.egg-info/SOURCES.txt'
+[1.413s] running build
+[1.413s] running build_py
+[1.413s] copying human_follower/gesture_detector_node.py -> /home/turtlebot/human_follower_ws/build/human_follower/build/lib/human_follower
+[1.414s] running install
+[1.414s] running install_lib
+[1.415s] copying /home/turtlebot/human_follower_ws/build/human_follower/build/lib/human_follower/gesture_detector_node.py -> /home/turtlebot/human_follower_ws/install/human_follower/lib/python3.10/site-packages/human_follower
+[1.416s] byte-compiling /home/turtlebot/human_follower_ws/install/human_follower/lib/python3.10/site-packages/human_follower/gesture_detector_node.py to gesture_detector_node.cpython-310.pyc
+[1.420s] running install_data
+[1.420s] running install_egg_info
+[1.424s] removing '/home/turtlebot/human_follower_ws/install/human_follower/lib/python3.10/site-packages/human_follower-1.0.0-py3.10.egg-info' (and everything under it)
+[1.424s] Copying ../../build/human_follower/human_follower.egg-info to /home/turtlebot/human_follower_ws/install/human_follower/lib/python3.10/site-packages/human_follower-1.0.0-py3.10.egg-info
+[1.425s] running install_scripts
+[1.458s] Installing depth_tracker script to /home/turtlebot/human_follower_ws/install/human_follower/lib/human_follower
+[1.458s] Installing follower_main script to /home/turtlebot/human_follower_ws/install/human_follower/lib/human_follower
+[1.458s] Installing gesture_detector script to /home/turtlebot/human_follower_ws/install/human_follower/lib/human_follower
+[1.458s] Installing obstacle_avoider script to /home/turtlebot/human_follower_ws/install/human_follower/lib/human_follower
+[1.459s] Installing person_detector script to /home/turtlebot/human_follower_ws/install/human_follower/lib/human_follower
+[1.459s] Installing robot_controller script to /home/turtlebot/human_follower_ws/install/human_follower/lib/human_follower
+[1.459s] writing list of installed files to '/home/turtlebot/human_follower_ws/build/human_follower/install.log'
+[1.495s] Invoked command in '/home/turtlebot/human_follower_ws/src/human_follower' returned '0': PYTHONPATH=/home/turtlebot/human_follower_ws/build/human_follower/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/turtlebot/human_follower_ws/install/human_follower/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/human_follower build --build-base /home/turtlebot/human_follower_ws/build/human_follower/build install --record /home/turtlebot/human_follower_ws/build/human_follower/install.log --single-version-externally-managed install_data

@@ -1,0 +1,62 @@
+[0.965s] Invoking command in '/home/turtlebot/human_follower_ws/build/human_follower': PYTHONPATH=/home/turtlebot/human_follower_ws/build/human_follower/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/turtlebot/human_follower_ws/install/human_follower/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/turtlebot/human_follower_ws/build/human_follower/build
+[1.368s] running develop
+[1.627s] Removing /home/turtlebot/human_follower_ws/install/human_follower/lib/python3.10/site-packages/human-follower.egg-link (link to .)
+[1.672s] Invoked command in '/home/turtlebot/human_follower_ws/build/human_follower' returned '0': PYTHONPATH=/home/turtlebot/human_follower_ws/build/human_follower/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/turtlebot/human_follower_ws/install/human_follower/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/turtlebot/human_follower_ws/build/human_follower/build
+[1.673s] Invoking command in '/home/turtlebot/human_follower_ws/src/human_follower': PYTHONPATH=/home/turtlebot/human_follower_ws/build/human_follower/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/turtlebot/human_follower_ws/install/human_follower/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/human_follower build --build-base /home/turtlebot/human_follower_ws/build/human_follower/build install --record /home/turtlebot/human_follower_ws/build/human_follower/install.log --single-version-externally-managed install_data --force
+[2.038s] running egg_info
+[2.039s] writing ../../build/human_follower/human_follower.egg-info/PKG-INFO
+[2.040s] writing dependency_links to ../../build/human_follower/human_follower.egg-info/dependency_links.txt
+[2.040s] writing entry points to ../../build/human_follower/human_follower.egg-info/entry_points.txt
+[2.040s] writing requirements to ../../build/human_follower/human_follower.egg-info/requires.txt
+[2.040s] writing top-level names to ../../build/human_follower/human_follower.egg-info/top_level.txt
+[2.043s] reading manifest file '../../build/human_follower/human_follower.egg-info/SOURCES.txt'
+[2.044s] writing manifest file '../../build/human_follower/human_follower.egg-info/SOURCES.txt'
+[2.044s] running build
+[2.044s] running build_py
+[2.045s] creating /home/turtlebot/human_follower_ws/build/human_follower/build
+[2.045s] creating /home/turtlebot/human_follower_ws/build/human_follower/build/lib
+[2.045s] creating /home/turtlebot/human_follower_ws/build/human_follower/build/lib/human_follower
+[2.045s] copying human_follower/follower_main_node.py -> /home/turtlebot/human_follower_ws/build/human_follower/build/lib/human_follower
+[2.045s] copying human_follower/depth_tracker_node.py -> /home/turtlebot/human_follower_ws/build/human_follower/build/lib/human_follower
+[2.046s] copying human_follower/obstacle_avoider_node.py -> /home/turtlebot/human_follower_ws/build/human_follower/build/lib/human_follower
+[2.046s] copying human_follower/person_detector_node.py -> /home/turtlebot/human_follower_ws/build/human_follower/build/lib/human_follower
+[2.046s] copying human_follower/smart_navigator_node.py -> /home/turtlebot/human_follower_ws/build/human_follower/build/lib/human_follower
+[2.046s] copying human_follower/gesture_detector_node.py -> /home/turtlebot/human_follower_ws/build/human_follower/build/lib/human_follower
+[2.047s] copying human_follower/__init__.py -> /home/turtlebot/human_follower_ws/build/human_follower/build/lib/human_follower
+[2.047s] copying human_follower/robot_controller_node.py -> /home/turtlebot/human_follower_ws/build/human_follower/build/lib/human_follower
+[2.047s] running install
+[2.048s] running install_lib
+[2.049s] creating /home/turtlebot/human_follower_ws/install/human_follower/lib/python3.10/site-packages/human_follower
+[2.049s] copying /home/turtlebot/human_follower_ws/build/human_follower/build/lib/human_follower/follower_main_node.py -> /home/turtlebot/human_follower_ws/install/human_follower/lib/python3.10/site-packages/human_follower
+[2.050s] copying /home/turtlebot/human_follower_ws/build/human_follower/build/lib/human_follower/depth_tracker_node.py -> /home/turtlebot/human_follower_ws/install/human_follower/lib/python3.10/site-packages/human_follower
+[2.050s] copying /home/turtlebot/human_follower_ws/build/human_follower/build/lib/human_follower/obstacle_avoider_node.py -> /home/turtlebot/human_follower_ws/install/human_follower/lib/python3.10/site-packages/human_follower
+[2.050s] copying /home/turtlebot/human_follower_ws/build/human_follower/build/lib/human_follower/person_detector_node.py -> /home/turtlebot/human_follower_ws/install/human_follower/lib/python3.10/site-packages/human_follower
+[2.050s] copying /home/turtlebot/human_follower_ws/build/human_follower/build/lib/human_follower/smart_navigator_node.py -> /home/turtlebot/human_follower_ws/install/human_follower/lib/python3.10/site-packages/human_follower
+[2.050s] copying /home/turtlebot/human_follower_ws/build/human_follower/build/lib/human_follower/gesture_detector_node.py -> /home/turtlebot/human_follower_ws/install/human_follower/lib/python3.10/site-packages/human_follower
+[2.050s] copying /home/turtlebot/human_follower_ws/build/human_follower/build/lib/human_follower/__init__.py -> /home/turtlebot/human_follower_ws/install/human_follower/lib/python3.10/site-packages/human_follower
+[2.051s] copying /home/turtlebot/human_follower_ws/build/human_follower/build/lib/human_follower/robot_controller_node.py -> /home/turtlebot/human_follower_ws/install/human_follower/lib/python3.10/site-packages/human_follower
+[2.052s] byte-compiling /home/turtlebot/human_follower_ws/install/human_follower/lib/python3.10/site-packages/human_follower/follower_main_node.py to follower_main_node.cpython-310.pyc
+[2.056s] byte-compiling /home/turtlebot/human_follower_ws/install/human_follower/lib/python3.10/site-packages/human_follower/depth_tracker_node.py to depth_tracker_node.cpython-310.pyc
+[2.059s] byte-compiling /home/turtlebot/human_follower_ws/install/human_follower/lib/python3.10/site-packages/human_follower/obstacle_avoider_node.py to obstacle_avoider_node.cpython-310.pyc
+[2.062s] byte-compiling /home/turtlebot/human_follower_ws/install/human_follower/lib/python3.10/site-packages/human_follower/person_detector_node.py to person_detector_node.cpython-310.pyc
+[2.065s] byte-compiling /home/turtlebot/human_follower_ws/install/human_follower/lib/python3.10/site-packages/human_follower/smart_navigator_node.py to smart_navigator_node.cpython-310.pyc
+[2.071s] byte-compiling /home/turtlebot/human_follower_ws/install/human_follower/lib/python3.10/site-packages/human_follower/gesture_detector_node.py to gesture_detector_node.cpython-310.pyc
+[2.073s] byte-compiling /home/turtlebot/human_follower_ws/install/human_follower/lib/python3.10/site-packages/human_follower/__init__.py to __init__.cpython-310.pyc
+[2.073s] byte-compiling /home/turtlebot/human_follower_ws/install/human_follower/lib/python3.10/site-packages/human_follower/robot_controller_node.py to robot_controller_node.cpython-310.pyc
+[2.078s] running install_data
+[2.078s] copying resource/human_follower -> /home/turtlebot/human_follower_ws/install/human_follower/share/ament_index/resource_index/packages
+[2.078s] copying package.xml -> /home/turtlebot/human_follower_ws/install/human_follower/share/human_follower
+[2.078s] copying launch/follower_launch.py -> /home/turtlebot/human_follower_ws/install/human_follower/share/human_follower/launch
+[2.079s] copying config/params.yaml -> /home/turtlebot/human_follower_ws/install/human_follower/share/human_follower/config
+[2.079s] running install_egg_info
+[2.081s] Copying ../../build/human_follower/human_follower.egg-info to /home/turtlebot/human_follower_ws/install/human_follower/lib/python3.10/site-packages/human_follower-1.0.0-py3.10.egg-info
+[2.083s] running install_scripts
+[2.116s] Installing depth_tracker script to /home/turtlebot/human_follower_ws/install/human_follower/lib/human_follower
+[2.117s] Installing follower_main script to /home/turtlebot/human_follower_ws/install/human_follower/lib/human_follower
+[2.117s] Installing gesture_detector script to /home/turtlebot/human_follower_ws/install/human_follower/lib/human_follower
+[2.117s] Installing obstacle_avoider script to /home/turtlebot/human_follower_ws/install/human_follower/lib/human_follower
+[2.117s] Installing person_detector script to /home/turtlebot/human_follower_ws/install/human_follower/lib/human_follower
+[2.117s] Installing robot_controller script to /home/turtlebot/human_follower_ws/install/human_follower/lib/human_follower
+[2.118s] Installing smart_navigator script to /home/turtlebot/human_follower_ws/install/human_follower/lib/human_follower
+[2.120s] writing list of installed files to '/home/turtlebot/human_follower_ws/build/human_follower/install.log'
+[2.160s] Invoked command in '/home/turtlebot/human_follower_ws/src/human_follower' returned '0': PYTHONPATH=/home/turtlebot/human_follower_ws/build/human_follower/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/turtlebot/human_follower_ws/install/human_follower/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/human_follower build --build-base /home/turtlebot/human_follower_ws/build/human_follower/build install --record /home/turtlebot/human_follower_ws/build/human_follower/install.log --single-version-externally-managed install_data --force

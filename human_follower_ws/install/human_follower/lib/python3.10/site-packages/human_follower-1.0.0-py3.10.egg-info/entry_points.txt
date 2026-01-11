@@ -1,0 +1,8 @@
+[console_scripts]
+depth_tracker = human_follower.depth_tracker_node:main
+follower_main = human_follower.follower_main_node:main
+gesture_detector = human_follower.gesture_detector_node:main
+obstacle_avoider = human_follower.obstacle_avoider_node:main
+person_detector = human_follower.person_detector_node:main
+robot_controller = human_follower.robot_controller_node:main
+

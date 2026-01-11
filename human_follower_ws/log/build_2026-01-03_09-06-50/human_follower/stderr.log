@@ -1,0 +1,5 @@
+  File "/home/turtlebot/human_follower_ws/install/human_follower/lib/python3.10/site-packages/human_follower/robot_controller_node.py", line 545
+    self.get_logger().info(f'Avoiding obstacle - turning {\"left\" if turn_direction > 0 else \"right\"}, person visible')
+                                                                                                                         ^
+SyntaxError: f-string expression part cannot include a backslash
+

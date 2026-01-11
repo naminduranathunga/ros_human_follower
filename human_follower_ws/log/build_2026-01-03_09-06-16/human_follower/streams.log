@@ -1,0 +1,37 @@
+[1.237s] Invoking command in '/home/turtlebot/human_follower_ws/src/human_follower': PYTHONPATH=/home/turtlebot/human_follower_ws/build/human_follower/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/turtlebot/human_follower_ws/install/human_follower/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/human_follower build --build-base /home/turtlebot/human_follower_ws/build/human_follower/build install --record /home/turtlebot/human_follower_ws/build/human_follower/install.log --single-version-externally-managed install_data
+[1.726s] running egg_info
+[1.728s] writing ../../build/human_follower/human_follower.egg-info/PKG-INFO
+[1.728s] writing dependency_links to ../../build/human_follower/human_follower.egg-info/dependency_links.txt
+[1.729s] writing entry points to ../../build/human_follower/human_follower.egg-info/entry_points.txt
+[1.729s] writing requirements to ../../build/human_follower/human_follower.egg-info/requires.txt
+[1.729s] writing top-level names to ../../build/human_follower/human_follower.egg-info/top_level.txt
+[1.733s] reading manifest file '../../build/human_follower/human_follower.egg-info/SOURCES.txt'
+[1.735s] writing manifest file '../../build/human_follower/human_follower.egg-info/SOURCES.txt'
+[1.735s] running build
+[1.735s] running build_py
+[1.736s] copying human_follower/obstacle_avoider_node.py -> /home/turtlebot/human_follower_ws/build/human_follower/build/lib/human_follower
+[1.736s] copying human_follower/robot_controller_node.py -> /home/turtlebot/human_follower_ws/build/human_follower/build/lib/human_follower
+[1.737s] running install
+[1.737s] running install_lib
+[1.739s] copying /home/turtlebot/human_follower_ws/build/human_follower/build/lib/human_follower/obstacle_avoider_node.py -> /home/turtlebot/human_follower_ws/install/human_follower/lib/python3.10/site-packages/human_follower
+[1.739s] copying /home/turtlebot/human_follower_ws/build/human_follower/build/lib/human_follower/robot_controller_node.py -> /home/turtlebot/human_follower_ws/install/human_follower/lib/python3.10/site-packages/human_follower
+[1.740s] byte-compiling /home/turtlebot/human_follower_ws/install/human_follower/lib/python3.10/site-packages/human_follower/obstacle_avoider_node.py to obstacle_avoider_node.cpython-310.pyc
+[1.744s] byte-compiling /home/turtlebot/human_follower_ws/install/human_follower/lib/python3.10/site-packages/human_follower/robot_controller_node.py to robot_controller_node.cpython-310.pyc
+[1.747s]   File "/home/turtlebot/human_follower_ws/install/human_follower/lib/python3.10/site-packages/human_follower/robot_controller_node.py", line 545
+[1.747s]     self.get_logger().info(f'Avoiding obstacle - turning {\"left\" if turn_direction > 0 else \"right\"}, person visible')
+[1.747s]                                                                                                                          ^
+[1.747s] SyntaxError: f-string expression part cannot include a backslash
+[1.747s] 
+[1.748s] running install_data
+[1.748s] running install_egg_info
+[1.751s] removing '/home/turtlebot/human_follower_ws/install/human_follower/lib/python3.10/site-packages/human_follower-1.0.0-py3.10.egg-info' (and everything under it)
+[1.752s] Copying ../../build/human_follower/human_follower.egg-info to /home/turtlebot/human_follower_ws/install/human_follower/lib/python3.10/site-packages/human_follower-1.0.0-py3.10.egg-info
+[1.755s] running install_scripts
+[1.793s] Installing depth_tracker script to /home/turtlebot/human_follower_ws/install/human_follower/lib/human_follower
+[1.793s] Installing follower_main script to /home/turtlebot/human_follower_ws/install/human_follower/lib/human_follower
+[1.793s] Installing gesture_detector script to /home/turtlebot/human_follower_ws/install/human_follower/lib/human_follower
+[1.794s] Installing obstacle_avoider script to /home/turtlebot/human_follower_ws/install/human_follower/lib/human_follower
+[1.794s] Installing person_detector script to /home/turtlebot/human_follower_ws/install/human_follower/lib/human_follower
+[1.794s] Installing robot_controller script to /home/turtlebot/human_follower_ws/install/human_follower/lib/human_follower
+[1.795s] writing list of installed files to '/home/turtlebot/human_follower_ws/build/human_follower/install.log'
+[1.837s] Invoked command in '/home/turtlebot/human_follower_ws/src/human_follower' returned '0': PYTHONPATH=/home/turtlebot/human_follower_ws/build/human_follower/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/turtlebot/human_follower_ws/install/human_follower/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/human_follower build --build-base /home/turtlebot/human_follower_ws/build/human_follower/build install --record /home/turtlebot/human_follower_ws/build/human_follower/install.log --single-version-externally-managed install_data

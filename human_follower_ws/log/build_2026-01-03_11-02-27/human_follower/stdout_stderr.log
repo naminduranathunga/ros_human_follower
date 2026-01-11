@@ -1,0 +1,28 @@
+running egg_info
+writing ../../build/human_follower/human_follower.egg-info/PKG-INFO
+writing dependency_links to ../../build/human_follower/human_follower.egg-info/dependency_links.txt
+writing entry points to ../../build/human_follower/human_follower.egg-info/entry_points.txt
+writing requirements to ../../build/human_follower/human_follower.egg-info/requires.txt
+writing top-level names to ../../build/human_follower/human_follower.egg-info/top_level.txt
+reading manifest file '../../build/human_follower/human_follower.egg-info/SOURCES.txt'
+writing manifest file '../../build/human_follower/human_follower.egg-info/SOURCES.txt'
+running build
+running build_py
+copying human_follower/robot_controller_node.py -> /home/turtlebot/human_follower_ws/build/human_follower/build/lib/human_follower
+running install
+running install_lib
+copying /home/turtlebot/human_follower_ws/build/human_follower/build/lib/human_follower/robot_controller_node.py -> /home/turtlebot/human_follower_ws/install/human_follower/lib/python3.10/site-packages/human_follower
+byte-compiling /home/turtlebot/human_follower_ws/install/human_follower/lib/python3.10/site-packages/human_follower/robot_controller_node.py to robot_controller_node.cpython-310.pyc
+running install_data
+copying config/params.yaml -> /home/turtlebot/human_follower_ws/install/human_follower/share/human_follower/config
+running install_egg_info
+removing '/home/turtlebot/human_follower_ws/install/human_follower/lib/python3.10/site-packages/human_follower-1.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/human_follower/human_follower.egg-info to /home/turtlebot/human_follower_ws/install/human_follower/lib/python3.10/site-packages/human_follower-1.0.0-py3.10.egg-info
+running install_scripts
+Installing depth_tracker script to /home/turtlebot/human_follower_ws/install/human_follower/lib/human_follower
+Installing follower_main script to /home/turtlebot/human_follower_ws/install/human_follower/lib/human_follower
+Installing gesture_detector script to /home/turtlebot/human_follower_ws/install/human_follower/lib/human_follower
+Installing obstacle_avoider script to /home/turtlebot/human_follower_ws/install/human_follower/lib/human_follower
+Installing person_detector script to /home/turtlebot/human_follower_ws/install/human_follower/lib/human_follower
+Installing robot_controller script to /home/turtlebot/human_follower_ws/install/human_follower/lib/human_follower
+writing list of installed files to '/home/turtlebot/human_follower_ws/build/human_follower/install.log'

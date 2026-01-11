@@ -1,0 +1,34 @@
+[1.219s] Invoking command in '/home/turtlebot/human_follower_ws/build/human_follower': PYTHONPATH=/home/turtlebot/human_follower_ws/build/human_follower/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/turtlebot/human_follower_ws/install/human_follower/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/turtlebot/human_follower_ws/build/human_follower/build --no-deps symlink_data
+[1.690s] running develop
+[1.963s] running egg_info
+[1.964s] creating human_follower.egg-info
+[1.964s] writing human_follower.egg-info/PKG-INFO
+[1.964s] writing dependency_links to human_follower.egg-info/dependency_links.txt
+[1.965s] writing entry points to human_follower.egg-info/entry_points.txt
+[1.965s] writing requirements to human_follower.egg-info/requires.txt
+[1.966s] writing top-level names to human_follower.egg-info/top_level.txt
+[1.966s] writing manifest file 'human_follower.egg-info/SOURCES.txt'
+[1.970s] reading manifest file 'human_follower.egg-info/SOURCES.txt'
+[1.971s] writing manifest file 'human_follower.egg-info/SOURCES.txt'
+[1.974s] running build_ext
+[1.974s] Creating /home/turtlebot/human_follower_ws/install/human_follower/lib/python3.10/site-packages/human-follower.egg-link (link to .)
+[1.975s] Installing depth_tracker script to /home/turtlebot/human_follower_ws/install/human_follower/lib/human_follower
+[1.976s] Installing follower_main script to /home/turtlebot/human_follower_ws/install/human_follower/lib/human_follower
+[1.976s] Installing gesture_detector script to /home/turtlebot/human_follower_ws/install/human_follower/lib/human_follower
+[1.976s] Installing obstacle_avoider script to /home/turtlebot/human_follower_ws/install/human_follower/lib/human_follower
+[1.976s] Installing person_detector script to /home/turtlebot/human_follower_ws/install/human_follower/lib/human_follower
+[1.976s] Installing robot_controller script to /home/turtlebot/human_follower_ws/install/human_follower/lib/human_follower
+[1.976s] Installing smart_navigator script to /home/turtlebot/human_follower_ws/install/human_follower/lib/human_follower
+[1.977s] 
+[1.977s] Installed /home/turtlebot/human_follower_ws/build/human_follower
+[1.977s] running symlink_data
+[1.977s] creating /home/turtlebot/human_follower_ws/install/human_follower/share/ament_index
+[1.977s] creating /home/turtlebot/human_follower_ws/install/human_follower/share/ament_index/resource_index
+[1.977s] creating /home/turtlebot/human_follower_ws/install/human_follower/share/ament_index/resource_index/packages
+[1.978s] symbolically linking /home/turtlebot/human_follower_ws/build/human_follower/resource/human_follower -> /home/turtlebot/human_follower_ws/install/human_follower/share/ament_index/resource_index/packages
+[1.978s] symbolically linking /home/turtlebot/human_follower_ws/build/human_follower/package.xml -> /home/turtlebot/human_follower_ws/install/human_follower/share/human_follower
+[1.978s] creating /home/turtlebot/human_follower_ws/install/human_follower/share/human_follower/launch
+[1.978s] symbolically linking /home/turtlebot/human_follower_ws/build/human_follower/launch/follower_launch.py -> /home/turtlebot/human_follower_ws/install/human_follower/share/human_follower/launch
+[1.978s] creating /home/turtlebot/human_follower_ws/install/human_follower/share/human_follower/config
+[1.978s] symbolically linking /home/turtlebot/human_follower_ws/build/human_follower/config/params.yaml -> /home/turtlebot/human_follower_ws/install/human_follower/share/human_follower/config
+[2.030s] Invoked command in '/home/turtlebot/human_follower_ws/build/human_follower' returned '0': PYTHONPATH=/home/turtlebot/human_follower_ws/build/human_follower/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/turtlebot/human_follower_ws/install/human_follower/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/turtlebot/human_follower_ws/build/human_follower/build --no-deps symlink_data

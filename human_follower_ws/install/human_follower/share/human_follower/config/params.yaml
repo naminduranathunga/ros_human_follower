@@ -1,0 +1,140 @@
+# Configuration for Human Follower Robot
+# Competition Settings - Tuned for best performance
+
+# === ROBOT CONTROL PARAMETERS ===
+robot:
+  # Safety zone distance (meters) - Robot tries to maintain this distance
+  target_distance: 1.5
+
+  # Distance tolerance (meters) - Acceptable range around target
+  distance_tolerance: 0.4
+
+  # Minimum safe distance (meters) - Robot won't move if closer than this
+  min_distance: 0.8
+
+  # Maximum tracking distance (meters) - Robot stops if person is farther
+  max_tracking_distance: 4.0
+
+  # Velocity limits
+  max_linear_velocity: 0.20 # m/s - Maximum forward/backward speed
+  min_linear_velocity: 0.05 # m/s - Minimum movement speed (overcomes friction)
+  max_angular_velocity: 0.3 # rad/s - Maximum turning speed
+
+  # Control gains
+  linear_kp: 0.3 # Proportional gain for distance control
+  angular_kp: 0.8 # Proportional gain for angle control
+
+  # Basic smoothing (always applied)
+  velocity_smoothing: 0.15 # Low-pass filter factor (0-1, lower = smoother)
+
+  # === SMOOTH SPEED CONTROL (Advanced Feature) ===
+  # Set to true for smooth distance-based speed with gentle deceleration
+  # Set to false for simple proportional control (original behavior)
+  smooth_speed_enabled: true
+
+  # Acceleration/Deceleration limits (per control cycle at 20Hz)
+  # Only used when smooth_speed_enabled is true
+  max_linear_accel: 0.05   # m/s per cycle - How fast robot speeds up
+  max_linear_decel: 0.05  # m/s per cycle - How fast robot slows down (gentler)
+  max_angular_accel: 0.1   # rad/s per cycle - Turn acceleration
+  max_angular_decel: 0.06  # rad/s per cycle - Turn deceleration (gentler)
+  
+  # Anticipatory deceleration zone
+  decel_distance: 0.5  # meters - Start slowing down this far from target
+
+# === PERSON DETECTION PARAMETERS ===
+detection:
+  # YOLO settings
+  yolo_model: "yolov8n.pt" # Model file (n=nano, s=small, m=medium)
+  confidence_threshold: 0.4 # Minimum detection confidence (lowered for VM)
+
+  # Frame processing - OPTIMIZED FOR VM
+  frame_skip: 4 # Process every Nth frame for YOLO (higher = faster)
+  input_size: 320 # YOLO input resolution (lower = faster)
+
+  # Tracking
+  tracking_timeout: 3.0 # Seconds before losing track of person (longer for slow processing)
+  iou_threshold: 0.25 # IoU threshold for tracking association
+
+# === DEPTH PROCESSING PARAMETERS ===
+depth:
+  # Depth image processing
+  min_valid_depth: 0.3 # Minimum valid depth (meters)
+  max_valid_depth: 8.0 # Maximum valid depth (meters)
+
+  # ROI for depth sampling
+  roi_width_ratio: 0.3 # Width of depth sampling region (ratio of bbox)
+  roi_height_ratio: 0.3 # Height of depth sampling region (ratio of bbox)
+
+  # Filtering
+  depth_percentile: 30 # Use this percentile of depth values (filters noise)
+  temporal_smoothing: 0.4 # Temporal filter for depth (0-1)
+
+# === GESTURE RECOGNITION PARAMETERS ===
+gesture:
+  # MediaPipe settings - OPTIMIZED FOR VM
+  min_detection_confidence: 0.6
+  min_tracking_confidence: 0.5
+  model_complexity: 0 # 0=lite (FASTER!), 1=full
+
+  # Frame processing - OPTIMIZED FOR VM
+  frame_skip: 3 # Process every Nth frame (higher = faster)
+
+  # Hand raise detection
+  hand_raise_threshold: 0.45 # Wrist Y position threshold
+  fingers_required: 2 # Minimum fingers pointing up (lowered for reliability)
+
+  # Debouncing
+  debounce_frames: 2 # Frames to confirm gesture (reduced for responsiveness)
+
+  # Use pose for accuracy
+  use_pose_reference: false # DISABLED for VM speed (saves ~30% CPU)
+
+# === OBSTACLE AVOIDANCE PARAMETERS ===
+obstacle:
+  # Detection zones (meters from robot)
+  front_zone_distance: 1.4 # Front obstacle detection distance
+  side_zone_distance: 1.0 # Side obstacle detection distance
+
+  # Angular sectors (degrees)
+  front_sector_angle: 30 # Front sector half-angle
+  side_sector_angle: 60 # Side sector half-angle
+
+  # Behavior
+  stop_distance: 0.5 # Stop if obstacle closer than this
+  slow_distance: 1.0 # Slow down if obstacle closer than this
+
+  # Recovery
+  recovery_turn_speed: 0.5 # rad/s - Speed when turning to avoid
+  recovery_timeout: 5.0 # Seconds before giving up avoidance
+
+  # === MULTI-PHASE AVOIDANCE (Prevents turn-back issue) ===
+  # Phase 1: Turn to clear the obstacle
+  avoidance_turn_duration: 1.0   # Seconds to turn before driving forward
+  
+  # Phase 2: Drive past the obstacle before resuming following
+  avoidance_drive_duration: 1.5  # Seconds to drive forward after turning
+  avoidance_drive_speed: 0.12    # m/s - Forward speed during drive-through
+
+# === CAMERA PARAMETERS ===
+camera:
+  # Topic names (Astra camera)
+  rgb_topic: "/camera/color/image_raw"
+  depth_topic: "/camera/depth/image_raw"
+  camera_info_topic: "/camera/depth/camera_info"
+
+  # Depth scale (depends on camera - Astra typically uses mm)
+  depth_scale: 0.001 # Convert depth values to meters
+
+  # Frame IDs
+  camera_frame: "camera_link"
+  robot_frame: "base_link"
+
+# === STATE MACHINE PARAMETERS ===
+state_machine:
+  # States: IDLE, WAITING, FOLLOWING, STOPPED, OBSTACLE_AVOID, LOST
+  initial_state: "IDLE"
+
+  # Timeouts
+  lost_timeout: 3.0 # Seconds without detection before LOST state
+  wait_timeout: 30.0 # Seconds in WAITING before returning to IDLE

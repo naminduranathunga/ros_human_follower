@@ -1,0 +1,23 @@
+[1.227s] Invoking command in '/home/turtlebot/human_follower_ws/build/human_follower': PYTHONPATH=/home/turtlebot/human_follower_ws/build/human_follower/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/turtlebot/human_follower_ws/install/human_follower/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/turtlebot/human_follower_ws/build/human_follower/build --no-deps symlink_data
+[1.750s] running develop
+[2.001s] running egg_info
+[2.002s] writing human_follower.egg-info/PKG-INFO
+[2.002s] writing dependency_links to human_follower.egg-info/dependency_links.txt
+[2.003s] writing entry points to human_follower.egg-info/entry_points.txt
+[2.003s] writing requirements to human_follower.egg-info/requires.txt
+[2.003s] writing top-level names to human_follower.egg-info/top_level.txt
+[2.008s] reading manifest file 'human_follower.egg-info/SOURCES.txt'
+[2.009s] writing manifest file 'human_follower.egg-info/SOURCES.txt'
+[2.011s] running build_ext
+[2.012s] Creating /home/turtlebot/human_follower_ws/install/human_follower/lib/python3.10/site-packages/human-follower.egg-link (link to .)
+[2.013s] Installing depth_tracker script to /home/turtlebot/human_follower_ws/install/human_follower/lib/human_follower
+[2.013s] Installing follower_main script to /home/turtlebot/human_follower_ws/install/human_follower/lib/human_follower
+[2.013s] Installing gesture_detector script to /home/turtlebot/human_follower_ws/install/human_follower/lib/human_follower
+[2.013s] Installing obstacle_avoider script to /home/turtlebot/human_follower_ws/install/human_follower/lib/human_follower
+[2.014s] Installing person_detector script to /home/turtlebot/human_follower_ws/install/human_follower/lib/human_follower
+[2.014s] Installing robot_controller script to /home/turtlebot/human_follower_ws/install/human_follower/lib/human_follower
+[2.014s] Installing smart_navigator script to /home/turtlebot/human_follower_ws/install/human_follower/lib/human_follower
+[2.014s] 
+[2.014s] Installed /home/turtlebot/human_follower_ws/build/human_follower
+[2.015s] running symlink_data
+[2.064s] Invoked command in '/home/turtlebot/human_follower_ws/build/human_follower' returned '0': PYTHONPATH=/home/turtlebot/human_follower_ws/build/human_follower/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/turtlebot/human_follower_ws/install/human_follower/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/turtlebot/human_follower_ws/build/human_follower/build --no-deps symlink_data
